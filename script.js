@@ -6,7 +6,7 @@ const fileUploadWrapper = document.querySelector(".file-upload-wrapper");
 const fileCancelButton = fileUploadWrapper.querySelector("#file-cancel");
 const chatbotToggler = document.querySelector("#chatbot-toggler");
 const closeChatbot = document.querySelector("#close-chatbot");
-const API_KEY = "AIzaSyD2ZovmMYbgLT4cXUYjeIokWEBQHIRn7ko";
+const API_KEY = "";
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 const userData = {
   message: null,
